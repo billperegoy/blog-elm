@@ -1,0 +1,14 @@
+@import "header_styles";
+@import "sidebar_styles";
+@import "post_styles";
+
+.content {
+  background-color: green;
+  @include display(flex);
+  @include flex-direction(row);
+}
+
+.container {
+  @include display(flex);
+  @include flex-direction(column);
+}

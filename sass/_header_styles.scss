@@ -1,0 +1,28 @@
+.header {
+  @include display(flex);
+  @include flex-direction(column);
+  height: 100px;
+}
+
+.logo-and-title {
+  @include display(flex);
+  @include flex-direction(row);
+  height: 70px;
+}
+
+.logo {
+  background-color: blue;
+  @include flex-grow(1);
+}
+
+
+.title {
+  background-color: red;
+  @include flex-grow(7);
+}
+
+.navigation {
+  background-color: grey;
+  height: 30px;
+}
+
