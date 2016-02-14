@@ -17,13 +17,22 @@ markdownHtml =
   Markdown.toHtml markdownText
 
 logo : Html
-logo = div [] [text "logo"]
+logo = 
+  div 
+    [ class "logo" ] 
+    [text "logo"]
 
 title : Html
-title = div [] [text "title"]
+title = 
+  div 
+    [ class "title" ] 
+    [text "title"]
 
 navigation : Html
-navigation = div [] [text "navigation"]
+navigation = 
+  div 
+    [ class "navigation" ] 
+    [text "navigation"]
 
 header : Html
 header = 

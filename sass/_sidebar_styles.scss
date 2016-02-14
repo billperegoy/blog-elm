@@ -1,0 +1,4 @@
+.sidebar {
+  background-color: yellow;
+  @include flex-grow(1);
+}
