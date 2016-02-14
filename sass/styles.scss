@@ -1,2 +1,33 @@
 @import "bourbon/bourbon";
 @import "base/base";
+
+.header {
+  background-color: blue;
+  @include display(flex);
+  @include flex-direction(column);
+}
+
+.logo-and-title {
+  @include display(flex);
+  @include flex-direction(row);
+}
+
+.content {
+  background-color: green;
+  @include display(flex);
+  @include flex-direction(row);
+}
+
+.sidebar {
+  background-color: yellow;
+  flex-grow: 1;
+}
+
+.post {
+  flex-grow: 5;
+}
+
+.container {
+  @include display(flex);
+  @include flex-direction(column);
+}

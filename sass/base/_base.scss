@@ -10,6 +10,7 @@
 
 @import "buttons";
 @import "forms";
-@import "lists";
+// Do not use bitters defaults for lists
+//@import "lists";
 @import "tables";
 @import "typography";
